@@ -64,6 +64,7 @@
         .skillhead {
             padding-left: 40%;
         }
+
         .projectpara {
             float: left;
             /* padding-right: 60%; */
@@ -71,17 +72,47 @@
             padding-left: 30px;
             font-size: larger;
         }
+
         .project1 {
             margin-top: 6%;
         }
+
         .headproject {
             padding-left: 40%;
             margin-top: 20px;
         }
-        .projectpic {
-            float: right;
-            width: 30%;
-            height: 60%;
+
+        .text-box {
+            position: relative;
+            display: inline-block;
+            max-width: 490px;
+            vertical-align: middle;
+            text-align: left;
+            padding: 30px 25px;
+            margin: 50px 0 50px -30px;
+        }
+
+        .white {
+            background: #fff;
+            box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        .black {
+            background: #000;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+
+        .proimg1 {
+            display: inline-block;
+            width: 50%;
+            vertical-align: middle;
+            margin: 0;
+            max-width: 500px;
+        }
+
+        .image-with-text-box {
+            padding-left: 30px;
         }
     </style>
 </head>
@@ -164,24 +195,40 @@
             </div>
             </p>
         </div>
-    </div>
-    <div class="project1">
-        <h2 class="headproject">Projects</h2>
-        <div c data-aos="fade-up"
-        data-aos-duration="3000">
-            <h4>WaterPark Website</h4>
+    </div><br><br><br><br>
+    <h2 class="skillhead">My Projects</h2>
+    <div class="image-with-text-box" data-aos="fade-down-right">
+        <img class="proimg1" src="park1.png" />
+        <div class="text-box black">
+            <h3>Project 1</h3>
+            <h2>WaterPark Website</h2>
             <p>Explore the ultimate aquatic paradise on our website! <br> Designed with HTML, CSS, and JavaScript, our
-                online <br> platform invites you to discover a world of water-filled <br> excitement. Dive into thrilling slides,
-                drift along lazy <br> rivers, and explore interactive splash zones suitable for <br> all ages. Whether you crave
+                online <br> platform invites you to discover a world of water-filled <br> excitement. Dive into
+                thrilling slides,
+                drift along lazy <br> rivers, and explore interactive splash zones suitable for <br> all ages. Whether
+                you crave
                 adrenaline-pumping thrills <br> or serene relaxation under the sun, our website offers an <br> array of
                 experiences for every visitor. Plan your adventure <br>today and immerse yourself in the fun!</p>
         </div>
-        <div class="projectpic" data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500">
-            <img src="waterpark.png" alt="">
+    </div>
+    <div class="image-with-text-box" data-aos="fade-down-left">
+        <img src="burger.jpeg" />
+        <div class="text-box black">
+            <h3>Project 2</h3>
+            <h2>Burgerlab Website</h2>
+            <p>"I have developed a website in the past called 'BurgerLab' using HTML, CSS, and JavaScript. This project
+                serves as an interactive platform providing users with burger recipes and cooking tips. Through this
+                endeavor, I demonstrated my proficiency in web development and crafted a creative, user-friendly
+                interface."
+
+
+
+
+
+
+            </p>
         </div>
-    </div><br><br>
+    </div>
 
 
 
@@ -189,6 +236,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+
     </script>
 </body>
 
