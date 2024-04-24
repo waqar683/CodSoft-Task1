@@ -6,115 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WAQAR SHAMIM</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style>
-        .heading {
-            margin-left: 40%;
-            text-transform: capitalize;
-            color: white;
-            font-size: 30px;
-            font-family: "Lucida Console", "Courier New", monospace;
-        }
-
-        .header {
-            background-color: black;
-            padding: 10px;
-            margin-top: 0px;
-        }
-
-        .about {
-            padding-top: 30px;
-        }
-
-        .salam {
-            padding-bottom: 0px;
-            padding-left: 30px;
-        }
-
-        .iam {
-            padding-left: 30px;
-        }
-
-        .para {
-            float: left;
-            /* padding-right: 60%; */
-            padding-top: 10px;
-            padding-left: 30px;
-            font-size: larger;
-        }
-
-        .aboutpic {
-            float: right;
-            margin-top: 0px;
-            padding-top: 0px;
-            padding-right: 40px;
-        }
-
-        .skillpic {
-            margin-top: 40%;
-            margin-left: 30%;
-        }
-
-        .skilldes {
-            padding-top: 10px;
-            padding-left: 10%;
-            font-size: larger;
-            padding-right: 10%;
-        }
-
-        .skillhead {
-            padding-left: 40%;
-        }
-
-        .projectpara {
-            float: left;
-            /* padding-right: 60%; */
-            /* padding-top: 10px; */
-            padding-left: 30px;
-            font-size: larger;
-        }
-
-        .project1 {
-            margin-top: 6%;
-        }
-
-        .headproject {
-            padding-left: 40%;
-            margin-top: 20px;
-        }
-
-        .text-box {
-            position: relative;
-            display: inline-block;
-            max-width: 490px;
-            vertical-align: middle;
-            text-align: left;
-            padding: 30px 25px;
-            margin: 50px 0 50px -30px;
-        }
-
-        .white {
-            background: #fff;
-            box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
-        }
-
-        .black {
-            background: #000;
-            color: #fff;
-            border: 1px solid #fff;
-        }
-
-        .proimg1 {
-            display: inline-block;
-            width: 50%;
-            vertical-align: middle;
-            margin: 0;
-            max-width: 500px;
-        }
-
-        .image-with-text-box {
-            padding-left: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -220,26 +112,128 @@
                 serves as an interactive platform providing users with burger recipes and cooking tips. Through this
                 endeavor, I demonstrated my proficiency in web development and crafted a creative, user-friendly
                 interface."
-
-
-
-
-
-
             </p>
         </div>
     </div>
 
+    <div class="resumebody">
+        <div class="resumecontainer" data-aos="flip-left">
+            <h1>My Resume</h1>
+
+            <!-- Personal Information Section -->
+            <div class="section1">
+                <h2>Personal Information</h2>
+                <p>Name: Waqar Shamim</p>
+                <p>Email: waqarshamim683@gmail.com</p>
+                <p>Phone: 0320-2098485</p>
+                <p>Address: 123 Main St, City, Country</p>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resumesection">
+                <h2>Education</h2>
+                <p>Bachelor of Science in Computer Science</p>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="resusection">
+                <h2>Work Experience</h2>
+                <p>Software Engineer</p>
+                <p>Responsibilities:</p>
+                <ul>
+                    <li>Developing web applications using HTML, CSS, and JavaScript</li>
+                    <li>Collaborating with team members on project development</li>
+                    <li>Testing and debugging code to ensure functionality</li>
+                </ul>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="section1">
+                <h2>Skills</h2>
+                <p>Website Developing <br><br>Website Designing <br><br>Digital Marketing</p>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="resumesection">
+                <h2>Projects</h2>
+
+                <p>Waterpark Website</p>
+                <p>Designed with HTML, CSS, and JavaScript, our
+                    online platform invites you to discover a world of water-filled <br> excitement. Dive into
+                    thrilling slides,
+                    drift along lazy rivers, and explore interactive splash zones suitable for <br> all ages. Whether
+                    you crave
+                    adrenaline-pumping thrills or serene relaxation under the sun, our website offers an <br> array of
+                    experiences for every visitor. Plan your adventure today and immerse yourself in the fun!.</p>
+
+                <p>Burgerlab website</p>
+                <p>"I have developed a website in the past called 'BurgerLab' using HTML, CSS, and JavaScript. This
+                    project
+                    serves as an interactive platform providing users with burger recipes and cooking tips. Through this
+                    endeavor, I demonstrated my proficiency in web development and crafted a creative, user-friendly
+                    interface.".</p>
+            </div>
+
+        </div>
+    </div><br><br>
+    <div class="contactform">
+        <div class="container" data-aos="flip-left">
+            <form id="contact" action="" method="post">
+                <h3>Quick Contact</h3>
+                <h4>Contact us today, and get reply with in 24 hours!</h4>
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <footer class="site-footer">
+            <div class="container">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">Copyright &copy; 2024 All Rights
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </footer>
 
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script>
 
-    </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script>
+
+        </script>
 </body>
 
 </html>
